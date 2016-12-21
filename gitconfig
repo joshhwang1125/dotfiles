@@ -1,0 +1,7 @@
+[push]
+	default = upstream
+[user]
+  email = ijoshjosh@gmail.com
+  name = JoshuaHwang
+[core]
+	excludesfile = ~/.gitignore

@@ -1,0 +1,6 @@
+machine api.heroku.com
+  login ijoshjosh@gmail.com
+  password ff704bc5-fb6a-4978-85be-897b6fbdf979
+machine git.heroku.com
+  login ijoshjosh@gmail.com
+  password ff704bc5-fb6a-4978-85be-897b6fbdf979
