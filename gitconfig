@@ -5,3 +5,5 @@
   name = JoshuaHwang
 [core]
 	excludesfile = ~/.gitignore
+[color]
+  ui=auto
