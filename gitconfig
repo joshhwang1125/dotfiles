@@ -5,5 +5,6 @@
   name = JoshuaHwang
 [core]
 	excludesfile = ~/.gitignore
+	editor = code --wait
 [color]
   ui=auto
