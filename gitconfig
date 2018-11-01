@@ -1,5 +1,7 @@
 [push]
 	default = upstream
+[pull]
+rebase = true
 [user]
   email = ijoshjosh@gmail.com
   name = JoshuaHwang
@@ -8,3 +10,5 @@
 	editor = code --wait
 [color]
   ui=auto
+[alias]
+	cln = clean -x -d -f -e Private*.config
