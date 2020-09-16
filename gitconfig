@@ -29,7 +29,7 @@
 	p = push
 	a = add
 	c = commit
-	[gitflow "release.finish"]
+[gitflow "release.finish"]
 	keep = yes
 [gitflow "hotfix.finish"]
 	keep = yes
