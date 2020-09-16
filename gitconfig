@@ -1,14 +1,20 @@
+[core]
+	editor = \"C:\\Users\\J Hwang\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe\" --wait
+[user]
+	name = Joshua Hwang
+	email = ijoshjosh@gmail.com  
 [push]
 	default = upstream
 [pull]
-rebase = true
-[user]
-  email = ijoshjosh@gmail.com
-  name = JoshuaHwang
+	rebase = merges
+[branch]
+	autosetuprebase = always
+[merge]
+	ff = false
+[alias]
+	cln = clean -x -d -f -e Private*.config
 [core]
 	excludesfile = ~/.gitignore
 	editor = code --wait
 [color]
-  ui=auto
-[alias]
-	cln = clean -x -d -f -e Private*.config
+  	ui=auto
