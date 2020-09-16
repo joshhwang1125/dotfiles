@@ -2,7 +2,11 @@
 	editor = \"C:\\Users\\J Hwang\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe\" --wait
 [user]
 	name = Joshua Hwang
-	email = ijoshjosh@gmail.com  
+	email = joshhwang1125@gmail.com
+[mergetool "p4merge"]
+	cmd = \"C:/Program Files/Perforce/p4merge.exe\" \"$BASE\" \"$LOCAL\" \"$REMOTE\" \"$MERGED\"
+[difftool "p4merge"]
+    	cmd = 'C:/Program Files/Perforce/p4merge.exe' \"$LOCAL\" \"$REMOTE\"	
 [push]
 	default = upstream
 [pull]
@@ -11,8 +15,28 @@
 	autosetuprebase = always
 [merge]
 	ff = false
+	tool = p4merge
 [alias]
 	cln = clean -x -d -f -e Private*.config
+	br = branch
+	g = git
+	st = status
+	co = checkout
+	pr = pull
+	rh = reset
+	aa = add
+	cm = commit
+	p = push
+	a = add
+	c = commit
+	[gitflow "release.finish"]
+	keep = yes
+[gitflow "hotfix.finish"]
+	keep = yes
+[gitflow "feature.finish"]
+	keep = yes
+[credential]
+	helper = manager
 [core]
 	excludesfile = ~/.gitignore
 	editor = code --wait
